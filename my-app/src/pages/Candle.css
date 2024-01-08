@@ -1,0 +1,31 @@
+/* PhotoGallery.css */
+
+.photo-grid {
+    margin-top: 20vh;
+    display: grid;
+    grid-template-columns: 40vw 40vw;
+    margin-left: 10vw;
+    gap: 5vw;
+}
+
+.photo-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.2s;
+    border-radius: 10px;
+    
+}
+
+.photo-grid img:hover {
+    transform: scale(1.1);
+}
+.centered-div{
+    grid-column: span 2;
+    transform: scale(0.5);
+    align-content: center;
+    justify-content: center;
+    /* width: 50%; */
+    /* height: auto; */
+
+}

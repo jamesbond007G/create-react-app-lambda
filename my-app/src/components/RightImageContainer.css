@@ -1,0 +1,55 @@
+.right1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 80vw;
+    height: 40vh;
+    margin-left: 10vh;
+    border: 10px solid #D58EBF;
+    border-radius: 3px;
+    background-color: #E2A8BE;
+    font-style: italic;
+    color:
+    /* inner-border-radius: 3px; */
+
+    /* align-items: center;
+    /* border-radius: 20px; */
+    /* background-color: red; */
+    /* margin-left: 10vw; */
+}
+
+.custom-carousel {
+    height: 40vh;
+    max-width: 20vw;
+    /* margin-left: 10vw; */
+    /* margin-top: 10vh; */
+    /* margin-bottom: 10vh; */
+    /* border: 10px solid red; */
+    /* border-radius: 20px; */
+    /* background-color: red; */
+    /* margin-left: 10vw; */
+}
+
+.CarouselImage {
+    height: 35vh;
+    margin-top: 5vh;
+    border: 5px solid #F9D236;
+    margin-bottom: -5vh;
+    /* width:30vw; */
+    /* justify-content: center; */
+    /* width: 10px; */
+
+}
+
+.explorenowbutton {
+    z-index: 100;
+}
+.ok1111{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    /* margin:auto; */
+}
